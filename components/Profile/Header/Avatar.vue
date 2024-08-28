@@ -1,44 +1,14 @@
 <template>
-    <div class="ProfileHeader">
-      <div class="profile-info">
-        <h1 class="name">Rakshitha</h1>
-        <p class="title">Software Developer</p>
-        <p class="bio">
-          Passionate about creating beautiful and functional web experiences. With over 1 year of experience in software development, I strive to bring creativity and innovation to every project.
-        </p>
-      </div>
+  <div class="ProfileHeader flex items-center p-5 bg-gray-100 rounded-lg shadow-md">
+    <div class="profile-info">
+      <h1 class="name text-2xl md:text-3xl font-semibold text-gray-800">Rakshitha</h1>
+      <p class="title text-xl md:text-2xl text-gray-600 mt-1">Software Developer</p>
+      <p class="bio text-base md:text-lg text-gray-700 mt-3">
+        Passionate about creating beautiful and functional web experiences. With over 1 year of experience in software development, I strive to bring creativity and innovation to every project.
+      </p>
     </div>
-  </template>
-  
-  <style lang="scss" scoped>
-  .ProfileHeader {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    margin: 0em;
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
-  
-    .profile-info {
-      .name {
-        font-size: 1.5em;
-        margin: 0;
-        color: #333;
-      }
-  
-      .title {
-        font-size: 1.2em;
-        color: #666;
-        margin: 5px 0;
-      }
-  
-      .bio {
-        font-size: 1em;
-        color: #555;
-        margin-top: 10px;
-      }
-    }
-  }
-  </style>
-  
+  </div>
+</template>
+
+<style scoped>
+</style>

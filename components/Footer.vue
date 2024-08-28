@@ -1,10 +1,10 @@
 <template>
-  <footer>
-    <div class="footer-content">
-      <p>&copy; {{ currentYear }} NUXT JS</p>
-      <ul>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex flex-col items-center justify-between text-center md:flex-row md:justify-between">
+      <p class="mb-2 md:mb-0">&copy; {{ currentYear }} NUXT JS</p>
+      <ul class="flex flex-wrap justify-center space-x-4">
+        <li><a href="/about" class="hover:underline">About </a></li>
+        <li><a href="/contact" class="hover:underline">Contact Us </a></li>
       </ul>
     </div>
   </footer>
@@ -19,27 +19,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-footer {
-  background: #333;
-  color: #fff;
-  padding: 1em 0;
-  text-align: center;
-}
-
-.footer-content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-content ul li {
-  display: inline;
-  margin: 0 10px;
-}
-
-.footer-content ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-</style>
